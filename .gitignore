@@ -223,3 +223,10 @@ __marimo__/
 mlruns/
 mlartifacts/
 mlflow.db
+
+# airflow (lokalny stan: baza, logi, config, hasla) - commitujemy tylko dagi
+03-orchestration/airflow/*
+!03-orchestration/airflow/dags/
+
+# macOS
+.DS_Store
